@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  position: absolute;
+  width: 1440px;
+  height: 60px;
+  top: 1455px;
+  background-color: var(--tertiary);
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--background);
+
+  h2 {
+    // display: flex;
+    // position: absolute;
+    // align-items: center;
+    // font-weight: 500;
+    // font-size: 18px;
+    // line-height: 35px;
+    // width: 260px;
+    // height: 35px;
+    // left: 590px;
+    display: flex;
+    align-items: center;
+    width: 299px;
+    height: 31px;
+    left: 570px;
+    top: 15px;
+
+    position: absolute;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 2rem;
+  }
+}
