@@ -1,0 +1,31 @@
+.container {
+  width: 1440px;
+  height: 60px;
+  margin-top: 0 auto;
+
+  h2 {
+    display: flex;
+    position: absolute;
+    width: 177px;
+    height: 63px;
+    left: 1196px;
+    top: 555px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 63px;
+    color: var(--tertiary);
+  }
+
+  p {
+    display: flex;
+    position: absolute;
+    width: 700px;
+    height: 35px;
+    left: 970px;
+    top: 620px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    color: var(--tertiary);
+  }
+}
