@@ -35,17 +35,20 @@
     top: 173px;
 
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 35px;
 
     color: var(--background);
   }
 
   img {
-    background: url('../../../public/images/air-jordan-retro.png'), no-repeat;
+    display: flex;
+    position: absolute;
+    width: 1440px;
+    height: 387px;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../../../public/images/air-jordan-retro.png'), no-repeat;
     background-position: top;
     background-size: cover;
-    background: var(--tertiary);
     z-index: -1;
 
   }
