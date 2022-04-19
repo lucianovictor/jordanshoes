@@ -1,0 +1,45 @@
+.container {
+  margin-top: 650px;
+  display: grid;
+  grid-template-columns: 310px 310px 310px 310px;
+  grid-template-rows: 312px 312px;
+  align-items: center;
+  padding: auto;
+
+}
+
+.content {
+  display:flex;
+  position: absolute;
+  width: 300px;
+  height: 302px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 310px 310px 310px 310px;
+  grid-template-rows: 312px 312px;
+  align-items: center;
+  padding: auto;
+  list-style: none;
+
+
+  li {
+    overflow: hidden;
+  }
+
+  img {
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    filter: grayscale(1);
+    transition: all 0.6s;
+    cursor: pointer;
+
+    &:hover, &:active {
+      filter: grayscale(0);
+      transform: scale(1.15);
+  }
+
+}
+
+}
